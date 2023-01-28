@@ -1,3 +1,5 @@
+// Program to show use of ABstraction
+
 package com.project.java_basics.oops;
 
 abstract class Shape {
@@ -10,6 +12,8 @@ abstract class Shape {
 
     void statusShape(){
         System.out.println("I am shape class");
+
+
     }
 }
 

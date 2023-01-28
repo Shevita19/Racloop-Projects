@@ -9,7 +9,7 @@ class Parent {
     }
 
     Parent(int x) {
-        this();                     // will call default constructor (use in same class)
+       this();                     // will call default constructor (use in same class)
         System.out.println("Overloaded constructor of base class" + x);
     }
 }
@@ -37,5 +37,7 @@ class SubChild extends Child{
 public class Inheritance_Concept {
     public static void main(String args[]){
         SubChild d= new SubChild  (5,10,15);
+
+
     }
 }
