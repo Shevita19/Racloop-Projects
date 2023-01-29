@@ -1,4 +1,4 @@
-// Program to show use of ABstraction
+// Program to show use of Abstraction
 
 package com.project.java_basics.oops;
 
@@ -12,7 +12,6 @@ abstract class Shape {
 
     void statusShape(){
         System.out.println("I am shape class");
-
 
     }
 }
@@ -33,7 +32,7 @@ abstract class Rectangle extends Shape{
         System.out.println("Rectangle is created");
     }
 }
-public class AbstractInterface_Concept {
+public class Abstract_Concept {
 
 public static void main(String args[]){
 Shape squ= new Square();

@@ -26,7 +26,7 @@ class Child extends Parent{
 }
 class SubChild extends Child{
     SubChild(){
-        System.out.println("I am a sub child of childclass");
+        System.out.println("I am a sub child of child class");
     }
     SubChild(int x, int y, int z){
         super(x,y);
