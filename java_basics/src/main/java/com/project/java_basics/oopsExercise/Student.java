@@ -24,6 +24,14 @@ public class Student extends Person {
                 '}';
     }
 
+    public void studentDetails(String name, int rollNo){
+            System.out.println("Student details are : " + name + " " + rollNo);
+    }
+
+    public void studentDetails(String name, int rollNo, int marks){
+        System.out.println("Student details are : " + name + " " + rollNo + " " + marks);
+    }
+
     Student(String name, int rollNo, String subjects, Standard standard, int marks) {
         this.name = name;
         this.rollNo = rollNo;

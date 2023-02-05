@@ -6,7 +6,7 @@ public class Standard {
     private Name name;
     private Section section;
     private int strength;
-    @Override
+
     public String toString() {
         return "Standard{" +
                 "name=" + name +

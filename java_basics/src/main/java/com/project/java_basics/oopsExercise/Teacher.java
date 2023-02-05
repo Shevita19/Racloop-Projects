@@ -11,7 +11,19 @@ public class Teacher extends Person {
         private String designation;
         private double salary;
         private Date date;
-@Override
+
+        public void stream(String subjects){
+
+            System.out.println("Subject that teacher teaches: " + subjects);
+        }
+
+    public void stream(String subjects, String name){
+
+        System.out.println("Teacher name and subjects that she teaches: " + name + " " +subjects);
+    }
+
+
+    @Override
     public void status(){
     System.out.println("abstract code in teacher class");
 }
